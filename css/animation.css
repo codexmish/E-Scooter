@@ -1,0 +1,25 @@
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes ghur{
+  from{
+    transform: rotate(odeg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+}
