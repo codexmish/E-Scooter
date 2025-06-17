@@ -36,6 +36,25 @@ h1,h2,h3,h4,h5,h6,p{
     --ubuntu: "Ubuntu", sans-serif;
     --primary-color: #42454A;
 }
+
+.common-head{
+    text-align: center;
+}
+
+.common-head h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+}
+
+.common-head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+    margin-top: 34px;
+}
 /* ----------Common css part end----------- */
 
 
@@ -95,7 +114,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* ----------Navbar part end----------- */
 
 
-/* ----------Banner link part start----------- */
+/* ----------Banner part start----------- */
 
 #banner{
     padding-top: 84px;
@@ -149,87 +168,87 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* From Uiverse.io by cssbuttons-io */ 
 .b1 button {
- position: relative;
- display: inline-block;
- outline: none;
- border: 0;
- vertical-align: middle;
- background: transparent;
- padding: 0;
- font-size: 15px;
- font-family: var(--ubuntu);
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    background: transparent;
+    padding: 0;
+    font-size: 15px;
+    font-family: var(--ubuntu);
 }
 
 button.learn-more {
- width: 161px;
- height: 58px;
+    width: 161px;
+    height: 58px;
 }
 
 button.learn-more .circle {
- transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
- position: relative;
- display: block;
- margin: 0;
- width: 58px;
- height: 58px;
- background: #42454A;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 58px;
+    height: 58px;
+    background: #42454A;
 }
 
 button.learn-more .circle .icon {
- transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
- position: absolute;
- top: 0;
- bottom: 0;
- margin: auto;
- background: #fff;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
 }
 
 button.learn-more .circle .icon.arrow {
- transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
- left: 0.625rem;
- width: 1.125rem;
- height: 0.125rem;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
 }
 
 button.learn-more .circle .icon.arrow::before {
- position: absolute;
- content: "";
- top: -0.29rem;
- right: 0.0625rem;
- width: 0.625rem;
- height: 0.625rem;
- border-top: 0.125rem solid #fff;
- border-right: 0.125rem solid #fff;
- transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    top: -0.29rem;   
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
 }
 
 button.learn-more .button-text {
- transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
- position: absolute;
- top: 0;
- left: 0;
- right: 0;
- bottom: 0;
- padding: 0.75rem 0;
- margin: 0 0 0 35px;
- color: var(--primary-color);
- font-weight: 700;
- line-height: 1.6;
- text-align: center;
- text-transform: uppercase;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 35px;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 button:hover .circle {
- width: 100%;
+    width: 100%;
 }
 
 button:hover .circle .icon.arrow {
- background: #fff;
- transform: translate(1rem, 0);
+    background: #fff;
+    transform: translate(1rem, 0);
 }
 
 button:hover .button-text {
- color: #fff;
+    color: #fff;
 }
 
 .b2 p{
@@ -274,19 +293,99 @@ button:hover .button-text {
 
 
 
-/* ----------Banner link part end----------- */
+/* ----------Banner part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------counter part start----------- */
+
+#counter{
+    padding-top: 209px;
+}
+
+.counter-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sin-counter{
+    width: 174px;
+    height: 137px;
+    border: 1px solid #f4f4f4;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.sin-counter h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+}
+
+.sin-counter span{
+    font-size: 40px;
+}
+
+.sin-counter p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+}
+/* ----------counter part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------accessories part start----------- */
+
+#product{
+    padding-top: 127px;
+}
+
+.pro-row{
+    padding-top: 140px;
+}
+
+.aimg image{
+    width: 748px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 44px;
+    padding-left: 177px;
+}
+
+.check .icon{
+    width: 49px;
+}
+
+.check .text{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+}
+/* ----------accessories part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------motor part start----------- */
+
+#motor{
+    padding-top: 248px;
+}
+
+.efficiency{
+    width: 1335px;
+    margin-top: 49px;
+}
+/* ----------motor part end----------- */
 
 
 /* ----------Font link part start----------- */
