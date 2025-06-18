@@ -340,7 +340,7 @@ button:hover .button-text {
 /* ----------counter part end----------- */
 
 
-/* ----------accessories part start----------- */
+/* ----------product part start----------- */
 
 #product{
     padding-top: 127px;
@@ -372,7 +372,7 @@ button:hover .button-text {
     font-family: var(--ubuntu);
     color: var(--primary-color);
 }
-/* ----------accessories part end----------- */
+/* ----------product part end----------- */
 
 
 /* ----------motor part start----------- */
@@ -388,12 +388,102 @@ button:hover .button-text {
 /* ----------motor part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------accessories part start----------- */
+
+#accessories{
+    padding-top: 315px;
+    padding-bottom: 127px;
+    position: relative;
+}
+
+.check-head{
+    width: 334px;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+}
+
+#accessories .check{
+    padding-left: 0;
+}
+
+.accessories-img1{
+    width: 878px;
+}
+
+.accrow1{
+    align-items: center;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.ship{
+    display: flex;
+    justify-content: end;
+}
+
+.accessories-big-img{
+    width: 779px;
+    position: absolute;
+    left: 0;
+    bottom: 237px;
+}
+
+.more{
+    max-width: 570px;
+    height: 94px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 74px auto 0;
+}
+/* ----------accessories part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------gallery part start----------- */
+
+#gallery .common-head{
+    padding-bottom: 112px;
+}
+
+.sco-button a{
+    max-width: 570px;
+    height: 94px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px auto 0;
+}
+
+.sco-button a:nth-child(1){
+    margin-top: 55px ;
+}
+
+.gimg{
+    max-width: 633px;
+}
+
+.grow{
+    align-items: end;
+}
+
+.built{
+    margin-bottom: 96px;
+}
+/* ----------gallery part end----------- */
 
 
 /* ----------Font link part start----------- */
