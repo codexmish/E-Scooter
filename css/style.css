@@ -486,32 +486,227 @@ button:hover .button-text {
 /* ----------gallery part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------colors link part start----------- */
+
+#colors{
+    padding-top: 130px;
+    padding-bottom: 370px;
+}
+
+#colors .common-head p{
+    margin-bottom: 152px;
+}
+.sliderg{
+    position: relative;
+}
+
+.nav-img{
+    width: 246px !important;
+    margin-right: 104px;
+}
+
+.slider-nav .nav-img:nth-child(4){
+    margin-right: 0;
+}
+
+.slick-list{
+    padding: 0 !important;
+}
+
+.sliter-button{
+    position: absolute;
+    bottom: -168px;
+    left: 0;
+}
+
+/* ----------colors link part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------Testimonials link part start----------- */
+
+#testimonials{
+    padding-top: 78px;
+    padding-bottom: 167px;
+    background: #FAFAFA;
+}
+
+#testimonials .common-head{
+    margin-bottom: 41px;
+}
+
+.testimonials-slider{
+    width: 360px;
+    padding-top: 52px;
+    padding-bottom: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D8D8D8;
+    transition: all linear .4s;
+} 
+
+.testimonials-slider:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 1px solid transparent;
+}
+
+.slider-sin-item ul{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    color: #FE8B75;
+}
+
+.testi-person{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.testi-text p{
+    max-width: 304px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+.testi-person .person-img{
+    width: 48px;
+    height: 48px;
+}
+
+.testi-person .person-text h2{
+    max-width: 109px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+
+}
+
+.testi-person .person-text p{
+    max-width: 90px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+
+}
+
+.slider2{
+    display: flex;
+    gap: 36px;
+}
+/* ----------Testimonials link part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------subscribe part start----------- */
+
+#subscribe{
+    padding-top: 121px;
+    padding-bottom: 121px;
+}
+.mail_box{
+    width: 616px;
+    height: 81px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+    margin-top: 59px;
+}
+
+.mail_box button{
+    width: 196px;
+    background: var(--primary-color);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: #EEE;
+    border-radius: 10px;
+}
+
+.mail_box input{
+    max-width: 400px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary-color);
+}
+
+.mail_box input::placeholder{
+    color: var(--primary-color);
+    padding-left: 38px;
+}
+/* ----------subscribe part end----------- */
 
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+/* ----------footer part start----------- */
 
+#footer{
+    padding-top: 99px;
+    background: var(--primary-color);
+    position: relative;
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+}
 
+.sin-footer-item h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: #fbfbfb;
+    margin-bottom: 54px;
+}
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+.footer-nav ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
+.footer-nav ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: #fbfbfb;
+}
 
-/* ----------Font link part start----------- */
-/* ----------Font link part end----------- */
+.footer-row{
+    display: flex;
+    gap: 102px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
 
+.socialicons{
+    display: flex;
+    gap: 16px;
+}
 
+.socialicons a{
+    width: 32px;
+    height: 32px;
+    background: #fbfbfb;
+    color: var(--primary-color) !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
+.footer-img{
+    max-width: 792px;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+/* ----------footer part end----------- */
