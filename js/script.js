@@ -28,8 +28,10 @@ $('.slider-nav').slick({
 
 // ----------------Testimonial slider
 
-// $('.testimonials-slider').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-// });
+$('.testimonials-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: '<i class="fa-solid myarr prr fa-arrow-left"></i>',
+    nextArrow: '<i class="fa-solid myarr nrr fa-arrow-right"></i>',
+});

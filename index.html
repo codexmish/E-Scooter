@@ -21,6 +21,7 @@
     <!-- -------custom css link------- -->
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- ------------Navbar part start -->
@@ -175,9 +176,9 @@
         </div>
         <div class="row pro-row">
           <div class="col-lg-6">
-            <div class="aimg"><img src="images/aboutimg.png" alt="about"></div>
+            <div class="aimg"><img data-aos="fade-right" src="images/aboutimg.png" alt="about"></div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <div class="check">
               <div class="icon"><img src="images/check.png" alt="check"></div>
               <div class="text">Lightweight aircraft grade aluminium frame</div>
@@ -223,7 +224,7 @@
                 More torque for powerful riding with 22% maximum hill climbing capability.
               </p>
             </div>
-            <div class="efficiency"><img src="images/Efficiency.png" alt="Efficiency"></div>
+            <div class="efficiency" data-aos="zoom-in"><img src="images/Efficiency.png" alt="Efficiency"></div>
           </div>
         </div>
       </div>
@@ -248,7 +249,7 @@
           </div>
         </div>
         <div class="row accrow1">
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-aos="zoom-in-right">
             <h2 class="check-head">Golf Bag Rock</h2>
             <div class="check">
               <div class="icon"><img src="images/check.png" alt="check"></div>
@@ -267,7 +268,7 @@
               <div class="text">Ease : Steady & adjustable</div>
             </div>
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="zoom-in-left">
             <div class="accessories-img1">
               <img src="images/accessories.png" alt="accessories">
             </div>
@@ -275,7 +276,7 @@
         </div>
         <div class="row ">
           <div class="col-lg-12 ">
-            <div class="ship">
+            <div class="ship" data-aos="zoom-out-down">
               <div class="ship-content">
                 <h2 class="check-head">Shopping Rack</h2>
             <div class="check">
@@ -299,12 +300,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12" data-aos="zoom-out-up">
             <h2 class="more">More Accessories Coming Soon</h2>
           </div>
         </div>
       </div>
-      <div class="accessories-big-img">
+      <div class="accessories-big-img" data-aos="zoom-out-down">
         <img src="images/shopingImg.png" alt="shopping">
       </div>
 
@@ -425,11 +426,12 @@
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-12">
-            <div class="slider2">
-              <div class="testimonials-slider">
-              <div class="slider-sin-item">
+            <div class="testimonials-slider">
+              <div>
+                <div class="slider-sin-item">
                 <ul>
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -437,24 +439,20 @@
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
                 </ul>
-              </div>
-              <div class="testi-text">
                 <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
-              </div>
-              <div class="testi-person">
-                <div class="person-img">
-                  <img src="images/p1.png" alt="person">
+                <div class="person-con">
+                  <div class="person-img">
+                    <img src="images/p1.png" alt="person">
+                  </div>
+                  <div class="person-text">
+                    <h2>Serhiy Hipskyy</h2>
+                    <p>CEO Universal</p>
+                  </div>
                 </div>
-                <div class="person-text">
-                  <h2>
-                    Serhiy Hipskyy
-                  </h2>
-                  <p>CEO Universal</p>
                 </div>
               </div>
-            </div>
-            <div class="testimonials-slider">
-              <div class="slider-sin-item">
+              <div>
+                <div class="slider-sin-item">
                 <ul>
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -462,24 +460,20 @@
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
                 </ul>
-              </div>
-              <div class="testi-text">
                 <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-              </div>
-              <div class="testi-person">
-                <div class="person-img">
-                  <img src="images/p2.png" alt="person">
+                <div class="person-con">
+                  <div class="person-img">
+                    <img src="images/p2.png" alt="person">
+                  </div>
+                  <div class="person-text">
+                    <h2>Justus Menke</h2>
+                    <p>CEO Eronaman</p>
+                  </div>
                 </div>
-                <div class="person-text">
-                  <h2>
-                    Justus Menke
-                  </h2>
-                  <p>CEO Eronaman</p>
                 </div>
               </div>
-            </div>
-            <div class="testimonials-slider">
-              <div class="slider-sin-item">
+              <div>
+                <div class="slider-sin-item">
                 <ul>
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -487,26 +481,44 @@
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
                 </ul>
-              </div>
-              <div class="testi-text">
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
-              </div>
-              <div class="testi-person">
-                <div class="person-img">
-                  <img src="images/p3.png" alt="person">
+                <div class="person-con">
+                  <div class="person-img">
+                    <img src="images/p3.png" alt="person">
+                  </div>
+                  <div class="person-text">
+                    <h2>Britain Eriksen</h2>
+                    <p>CEO Universal</p>
+                  </div>
                 </div>
-                <div class="person-text">
-                  <h2>
-                    Britain Eriksen
-                  </h2>
-                  <p>CEO Universal</p>
                 </div>
               </div>
-            </div>
+              <div>
+                <div class="slider-sin-item">
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                <div class="person-con">
+                  <div class="person-img">
+                    <img src="images/p1.png" alt="person">
+                  </div>
+                  <div class="person-text">
+                    <h2>Serhiy Hipskyy</h2>
+                    <p>CEO Universal</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </section>
     <!-- ------------Testimonials part end -->
 
