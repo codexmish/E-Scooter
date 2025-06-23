@@ -1,0 +1,205 @@
+@media (min-width: 0) and (max-width: 575.98px){
+    .main-menu{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main-menu ul{
+	gap: 18px;
+    align-items: center;
+    padding-top: 30px;
+    }
+
+    .main-menu .nav-buttons{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        gap: 15px;
+    }
+
+    .main-menu .nav-buttons a {
+	padding: 12px 22px;
+	border-radius: 12px;
+	font-size: 11px;
+    }
+
+    .banner-img {
+	position: static;
+	bottom: 0;
+    margin-top: 30px;
+    }
+
+    .banner-text h3 {
+	font-size: 42px;
+    }
+
+    .banner-text h1 {
+	font-size: 45px;
+    }
+    .banner-text .line {
+	margin-top: 47px;
+	margin-bottom: 27px;
+    }
+
+    .banner-text p {
+	font-size: 15px;
+    }
+
+    button.learn-more {
+	width: 130px;
+    }
+
+    #counter {
+	padding-top: 62px;
+    }
+
+    .sin-counter {
+	width: 100%;
+    }
+
+    .sin-counter span {
+	font-size: 30px;
+    }
+    
+    .common-head h2 {
+	font-size: 27px;
+    }
+
+    .common-head p {
+	font-size: 16px;
+	margin-top: 16px;
+    }
+
+    .check {
+	gap: 7px;
+	margin-top: 5px;
+	padding-left: 19px;
+    }
+
+    .check .icon {
+	width: 32px;
+    }
+    
+    .check .text {
+	font-size: 12px;
+    }
+
+    .pro-row {
+	padding-top: 22px;
+    }
+
+    #motor {
+	padding-top: 106px;
+    }
+
+    .efficiency {
+	width: 302px;
+	margin-top: 69px;
+    }
+
+    #accessories {
+	padding-top: 122px;
+	padding-bottom: 111px;
+    }
+
+    .check-head {
+	font-size: 34px;
+    }
+
+    .accessories-img1 {
+	width: 315px;
+    padding-top: 20px;
+    }
+
+    .accessories-big-img {
+	width: 304px;
+	position: static;
+    margin-top: 50px;
+    }
+
+    .ship {
+	justify-content: start;
+    }
+
+    .more {
+	height: 65px;
+	border-radius: 22px;
+	font-size: 15px;
+    }
+
+    .sco-button a {
+	height: 63px;
+	border-radius: 19px;
+	font-size: 16px;
+    }
+
+    .nav-img {
+	width: 74px !important;
+	margin-right: 0px;
+    }
+
+    .sliter-button {
+	bottom: -60px;
+    }
+
+    #colors {
+	padding-top: 92px;
+	padding-bottom: 148px;
+    }
+
+    .slider-sin-item {
+	width: 100% !important;
+    }
+
+    .prr {
+	left: 30%;
+    }
+
+    .nrr {
+	left: 60%;
+    }
+
+    #subscribe {
+	padding-top: 71px;
+	padding-bottom: 81px;
+    }
+
+    .mail_box input {
+	font-size: 16px;
+    }
+
+    .mail_box button {
+	width: 94px;
+	font-size: 14px;
+    }
+
+    .mail_box {
+	width: 391px;
+	height: 63px;
+	gap: 2px;
+	justify-content: start;
+	margin-top: 59px;
+    }
+
+    .footer-row {
+	display: flex;
+	gap: 33px;
+	justify-content: start;
+    }
+
+    .footer-img {
+	position: static;
+    }
+
+    .sin-footer-item h2 {
+	font-size: 14px;
+    }
+
+    .footer-nav ul li a {
+	font-size: 12px;
+    }
+
+    .socialicons {
+	gap: 9px;
+    }
+}

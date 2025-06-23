@@ -278,6 +278,7 @@ button:hover .button-text {
 
 .all-b{
     display: flex;
+    flex-wrap: wrap;
     max-width: 429px;
     align-items: center;
     gap: 50px;
@@ -708,7 +709,7 @@ button:hover .button-text {
 .footer-row{
     display: flex;
     gap: 102px;
-    flex-wrap: wrap;
+
     justify-content: end;
 }
 

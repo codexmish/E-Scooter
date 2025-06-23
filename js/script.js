@@ -34,4 +34,21 @@ $('.testimonials-slider').slick({
     slidesToScroll: 1,
     prevArrow: '<i class="fa-solid myarr prr fa-arrow-left"></i>',
     nextArrow: '<i class="fa-solid myarr nrr fa-arrow-right"></i>',
+    responsive: [
+    {
+        breakpoint: 575.98,
+        settings: {
+            slidesToShow: 1
+    }
+    },
+    // {
+    //   breakpoint: 480,
+    //   settings: {
+    //     arrows: false,
+    //     centerMode: true,
+    //     centerPadding: '40px',
+    //     slidesToShow: 1
+    //   }
+    // }
+]
 });
