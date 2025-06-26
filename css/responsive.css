@@ -323,8 +323,30 @@
 	left: 0;
     }
 
-    #testimonials {
-	padding-top: 0;
+    #colors {
+	padding-bottom: 182px;
     }
 
+    .slider-sin-item {
+	width: 100% !important;
+    }
+
+    .slider-sin-item p {
+	max-width: 452px;
+    }
+
+    .nrr {
+	left: 57%;
+    }
+
+    .prr {
+	left: 41%;
+    }
+
+    .footer-img {
+	width: 401px;
+	position: static;
+    }
+
+    
 }

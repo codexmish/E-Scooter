@@ -38,17 +38,22 @@ $('.testimonials-slider').slick({
     {
         breakpoint: 575.98,
         settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
     }
     },
-    // {
-    //   breakpoint: 480,
-    //   settings: {
-    //     arrows: false,
-    //     centerMode: true,
-    //     centerPadding: '40px',
-    //     slidesToShow: 1
-    //   }
-    // }
+    {
+    breakpoint: 767.98,
+    settings: {
+        slidesToShow: 1,
+    }
+    }
 ]
 });
+
+console.log('hello');
+
+alert('hello this is class 21 hw');
+
+confirm('hello this is confirm');
+
+prompt('hello this is prompt');
